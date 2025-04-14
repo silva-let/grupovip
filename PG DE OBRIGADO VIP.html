@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado Gatinho - VIP</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans:wght@400;600&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #1a0b14, #2a1a2a, #3a1a2a);
+            font-family: 'Open Sans', sans-serif;
+            overflow: hidden;
+        }
+
+        .popup {
+            background: #1c1c1c;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 450px;
+            width: 90%;
+            color: white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 50px rgba(255, 77, 109, 0.1);
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .check-icon {
+            background: linear-gradient(135deg, #ff4d6d, #ff6b87);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 15px;
+            font-size: 28px;
+            box-shadow: 0 5px 15px rgba(255, 77, 109, 0.4);
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(255, 77, 109, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 20px rgba(255, 77, 109, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(255, 77, 109, 0);
+            }
+        }
+
+        .popup h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 28px;
+            margin: 10px 0;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .popup h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            margin: 10px 0;
+            font-weight: 400;
+            color: #f0f0f0;
+        }
+
+        .popup p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 15px 0;
+            line-height: 1.6;
+            color: #d0d0d0;
+        }
+
+        .popup .exclusive {
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            margin: 20px 0 10px;
+            text-transform: uppercase;
+            color: #ff6b87;
+            letter-spacing: 1px;
+        }
+
+        .popup .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #ff4d6d, #ff6b87);
+            color: white;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            margin: 20px 0 10px;
+            box-shadow: 0 5px 15px rgba(255, 77, 109, 0.4);
+            transition: transform 0.2s, box-shadow 0.3s;
+        }
+
+        .popup .button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(255, 77, 109, 0.6);
+        }
+
+        .popup .support {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 12px;
+            color: #b0b0b0;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup">
+        <div class="check-icon">✔</div>
+        <h1>OBRIGADO GATINHO!</h1>
+        <h2>Seu acesso para meu VIP está confirmado</h2>
+        <p>Parabéns por entrar no meu grupinho exclusivo! 😻 Clique no botão abaixo para acessar nosso grupo VIP no Telegram e receber conteúdo exclusivo.</p>
+        <a href="https://t.me/+QDplZH8c8D5mMTlh" class="button">ACESSAR GRUPO VIP🔞</a>
+        <p class="exclusive">CONTEÚDO EXCLUSIVO DISPONÍVEL AGORA</p>
+        <p class="support">Em caso de dúvidas, entre em contato com o suporte</p>
+    </div>
+</body>
+</html>
